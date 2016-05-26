@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Y7s-1g-d6l">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Swipe-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Room" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBD-tb-iga">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EBD-tb-iga" secondAttribute="bottom" id="8hu-Sw-fQJ"/>
+                            <constraint firstItem="EBD-tb-iga" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="AOC-9A-gSj"/>
+                            <constraint firstItem="EBD-tb-iga" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ogx-oG-3bQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EBD-tb-iga" secondAttribute="trailing" id="Rc7-dF-TBo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EBD-tb-iga" secondAttribute="bottom" id="TFE-cg-x3o"/>
+                            <constraint firstItem="EBD-tb-iga" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Tnh-AV-dQb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EBD-tb-iga" secondAttribute="trailing" id="W51-yw-rrA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EBD-tb-iga" secondAttribute="trailing" constant="-20" id="ae4-Xh-6aq"/>
+                            <constraint firstItem="EBD-tb-iga" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ipg-X9-rS0"/>
+                            <constraint firstItem="EBD-tb-iga" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="kJO-Nq-hoY"/>
+                            <constraint firstItem="EBD-tb-iga" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="pLO-4V-GSa"/>
+                            <constraint firstItem="EBD-tb-iga" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qic-Z1-ugS"/>
+                            <constraint firstItem="EBD-tb-iga" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="sLj-kx-jYy"/>
+                            <constraint firstItem="EBD-tb-iga" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="vnk-nB-u6u"/>
+                            <constraint firstItem="EBD-tb-iga" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="yje-bp-KTu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EBD-tb-iga" secondAttribute="trailing" constant="-20" id="ypc-uL-PUm"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Ogx-oG-3bQ"/>
+                                <exclude reference="Rc7-dF-TBo"/>
+                                <exclude reference="Tnh-AV-dQb"/>
+                                <exclude reference="W51-yw-rrA"/>
+                                <exclude reference="kJO-Nq-hoY"/>
+                                <exclude reference="pLO-4V-GSa"/>
+                                <exclude reference="sLj-kx-jYy"/>
+                                <exclude reference="vnk-nB-u6u"/>
+                                <exclude reference="ypc-uL-PUm"/>
+                                <exclude reference="8hu-Sw-fQJ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Swipe" id="lAF-9t-bXs"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="scrollView" destination="EBD-tb-iga" id="sdx-GC-IKY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1309" y="997"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0Dr-a2-aMf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Y7s-1g-d6l" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DM0-xS-Izs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="AWI-DQ-2Wb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OmB-tY-FXR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="997"/>
+        </scene>
+    </scenes>
+</document>

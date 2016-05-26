@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2161959020C2650905CD9B469A98E7920E23D98D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2161959020C2650905CD9B469A98E7920E23D98D" : 0,
+    "F76A6697ED8F981B390B4D95DA510F0CB4256E60" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "39B0BBA2-C31C-4883-AECD-DEB6FEA3E503",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2161959020C2650905CD9B469A98E7920E23D98D" : "RoomAppIOS\/",
+    "F76A6697ED8F981B390B4D95DA510F0CB4256E60" : "..\/Desktop\/app"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Room",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Room\/Room.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Calderis\/RoomAppIOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2161959020C2650905CD9B469A98E7920E23D98D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Calderis\/Room.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F76A6697ED8F981B390B4D95DA510F0CB4256E60"
+    }
+  ]
+}
